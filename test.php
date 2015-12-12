@@ -5,7 +5,7 @@ $objs = array();
 
 for($index = 0; $index < 3; $index++) {
 	$obj = new stdClass();
-	$obj->name = "adoda";
+	$obj->name = "adoda"+$index;
 	$obj->age = "31";
 	$objs[$index] = $obj;
 }
