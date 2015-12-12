@@ -1,7 +1,7 @@
 <?php 
 header("Content-Type:application/json");
 
-$objs[3];
+$objs[3] = array();
 
 foreach ($objs as $key => $value) {
 	$obj = new stdClass();
